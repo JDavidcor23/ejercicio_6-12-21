@@ -23,7 +23,7 @@ const Cards = ({cate}) => {
     imgGif()
     return (
         <div>
-            <h1>lalalal</h1>
+            <h1>{cate}</h1>
             <ol>
                 {
                     stateImages.map(img =>(
